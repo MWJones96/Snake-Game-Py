@@ -152,4 +152,4 @@ if __name__ == "__main__":
 		g.render(screen, block_size, largeText)
 
 		pygame.display.update()
-		pygame.time.wait(100)
+		pygame.time.wait(int(100/(0.1*g.score + 1)))
